@@ -5,7 +5,7 @@
 	driverClassName="org.postgresql.Driver"
 
 	username="gustavo" password="asdflkjh"
-	url="jdbc:postgresql://localhost:5432/splus"
+	url="jdbc:postgresql://localhost:5432/postgres"
 
 	maxActive="10" maxWait="2000" />
 
