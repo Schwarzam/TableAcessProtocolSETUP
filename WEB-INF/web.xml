@@ -27,6 +27,14 @@
 			<param-name>cors.preflight.maxage</param-name>
 			<param-value>10</param-value>
 		</init-param>
+		<init-param>
+	    <param-name>cors.request.headers</param-name>
+	    <param-value>Access-Control-Allow-Origin, Access-Control-Allow-Methods,Access-Control-Allow-Credentials</param-value>
+	  </init-param>
+		<init-param>
+	    <param-name>cors.request.origin</param-name>
+	    <param-value>*</param-value>
+	  </init-param>
 	</filter>
 	<filter-mapping>
 	  <filter-name>CorsFilter</filter-name>
