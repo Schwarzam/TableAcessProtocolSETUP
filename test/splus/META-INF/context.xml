@@ -1,0 +1,8 @@
+<Context>
+
+	<Resource name="jdbc/splus" auth="Container" type="javax.sql.DataSource"
+		driverClassName="org.postgresql.Driver" url="jdbc:postgresql://localhost:5432/splus"
+		username="splus" password="splus"
+		maxActive="10" maxWait="2000" />
+
+</Context>

@@ -1,6 +1,6 @@
 <Context>
 
-	<Resource name="jdbc/myDatasource" auth="Container"
+<!-- 	<Resource name="jdbc/myDatasource" auth="Container"
 	type="javax.sql.DataSource"
 	driverClassName="org.postgresql.Driver"
 
@@ -8,5 +8,5 @@
 	url="jdbc:postgresql://localhost:5432/postgres"
 
 	maxActive="10" maxWait="2000" />
-
+ -->
 </Context>
